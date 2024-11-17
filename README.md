@@ -17,3 +17,6 @@ git commit -m "notes about changes"
 git push -u origin branch-name
 
 Please check with the team before merging or pushing major changes to the main branch.  Thank you.
+
+6. Pull changes from updated repo
+git pull origin main
