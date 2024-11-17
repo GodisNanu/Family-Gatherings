@@ -15,3 +15,5 @@ git commit -m "notes about changes"
 
 5. Push Changes to Github
 git push -u origin branch-name
+
+Please check with the team before merging changes or pushing changes to the main branch.  Thank you.
