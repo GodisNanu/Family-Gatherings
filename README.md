@@ -1,3 +1,7 @@
+Project Description:
+
+Family Gathering Landing Page where guests can RSVP and choose a Recipe to Bring to the Gathering
+
 Collaboration Instructions
 
 1. Clone Repo
