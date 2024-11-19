@@ -41,11 +41,41 @@
         <p class="footer__author">DevCore &#169; 2024</p>
       </footer>
     </div>
-    <!-- RSVP modal
-    modal markup goes here -->
+    <!-- RSVP modal -->
+    <div>
+      <div class="modal" id="rsvpModal">
+        <div class="modal__container">
+          <button class="modal__close" id="closeModal"></button>
+          <h2 class="modal__heading"> Join Us For Thanksgiving </h2>
+          <form action="" class="modal__form" id="rsvpModalForm">
+            <label class="modal__label">
+              <input name="name" type="text" class="modal__input-text" placeholder="Your Name Goes Here" minlength="4" maxlength="28" required>
+              <span class="modal__error" id=" name-input-error"></span>
+            </label>
+            <label class="modal__label">
+              <input name = "recipe" placeholder = "Dish To Share" type="text" class="modal__input-text" id="recipe-input" minlength="5" maxlength="100" required>
+            </label>
+            <label class="modal__label"> How Many Additional Guests?
+              <input class= "modal__input-number" type="number" id="numberInput" name="number" max="10" required>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
 
-    <!-- View Recipe Modal 
-    modal markup goes here -->
+    <!-- View Recipe Modal -->
+    <div class="modal" id="viewRecipeModal">
+      <div class="modal__container-recipe">
+        <button class="modal__close"></button>
+        <img src="" alt=" " class="modal__image" />
+        <h2 class="modal__recipe-title">Ingredients:</h2>
+        <p class="modal__recipe-ingredients"></p>
+        <h2 class="modal__recipe-title">Instructions:</h2>
+        <p class="modal__recipe-instructions"></p>
+        <h2 class="modal__recipe-title"> Tips:</h2>
+        <p class="modal__recipe-tips"></p>
+      </div>
+    </div>
 
     <!-- Guestlist Card Template-->
     <template id="guest__card-template">
