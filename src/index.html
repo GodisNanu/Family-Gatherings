@@ -15,8 +15,8 @@
     <div class="page__content">
       <header class="header">
         <img
-          id="invitation__image"
-          class="invitation__image"
+          id="invitation-image"
+          class="header__image"
           src=""
           alt="Invitation"
         />
@@ -38,7 +38,7 @@
       </div>
       </main>
       <footer class="footer">
-        <p class="footer__author">DevCore &#169; 2024</p>
+        <p class="footer__author">Joanna Hazel &#169; 2024</p>
       </footer>
     </div>
     <!-- RSVP modal -->
@@ -56,7 +56,7 @@
               <input name = "recipe" placeholder = "Dish To Share" type="text" class="modal__input-text" id="recipe-input" minlength="5" maxlength="100" required>
             </label>
             <label class="modal__label"> How Many Additional Guests?
-              <input class= "modal__input-number" type="number" id="numberInput" name="number" max="10" required>
+              <input class= "modal__input-number" type="number" id="numberInput" name="number" max="10" min="0"required>
             </label>
           </form>
         </div>
@@ -78,11 +78,11 @@
     </div>
 
     <!-- Guestlist Card Template-->
-    <template id="guest__card-template">
-      <li class="guest__card">
-        <h2 class="guest__card-name"></h2>
-        <h3 class="guest__card-recipe"></h3>
-        <p class="guest__card-guests"></p>
+    <template id="guestlist__card-template">
+      <li class="guestlist__card">
+        <h2 class="guestlist__card-name"></h2>
+        <h3 class="guestlist__card-recipe"></h3>
+        <p class="guestlist__card-guests"></p>
       </li>
     </template>
     <!-- Recipe Card Template-->
