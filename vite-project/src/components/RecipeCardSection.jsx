@@ -14,3 +14,5 @@ export const RecipeCardSection = () => {
     </>
   );
 };
+
+export default RecipeCardSection;
