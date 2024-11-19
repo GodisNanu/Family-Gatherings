@@ -13,14 +13,6 @@
   </head>
   <body class="page">
     <div class="page__content">
-      <header class="header">
-        <img
-          id="invitation-image"
-          class="header__image"
-          src=""
-          alt="Invitation"
-        />
-      </header>
       <main class="content">
       <section class="guestlist">
         <h1 class="guestlist__title">Guest List</h1>
@@ -37,69 +29,6 @@
           </section>
       </div>
       </main>
-      <footer class="footer">
-        <p class="footer__author">Joanna Hazel &#169; 2024</p>
-      </footer>
     </div>
-    <!-- RSVP modal -->
-    <div>
-      <div class="modal" id="rsvpModal">
-        <div class="modal__container">
-          <button class="modal__close" id="closeModal"></button>
-          <h2 class="modal__heading"> Join Us For Thanksgiving </h2>
-          <form action="" class="modal__form" id="rsvpModalForm">
-            <label class="modal__label">
-              <input name="name" type="text" class="modal__input-text" placeholder="Your Name Goes Here" minlength="4" maxlength="28" required>
-              <span class="modal__error" id=" name-input-error"></span>
-            </label>
-            <label class="modal__label">
-              <input name = "recipe" placeholder = "Dish To Share" type="text" class="modal__input-text" id="recipe-input" minlength="5" maxlength="100" required>
-            </label>
-            <label class="modal__label"> How Many Additional Guests?
-              <input class= "modal__input-number" type="number" id="numberInput" name="number" max="10" min="0"required>
-            </label>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <!-- View Recipe Modal -->
-    <div class="modal" id="viewRecipeModal">
-      <div class="modal__container-recipe">
-        <button class="modal__close"></button>
-        <img src="" alt=" " class="modal__image" />
-        <h2 class="modal__recipe-title">Ingredients:</h2>
-        <p class="modal__recipe-ingredients"></p>
-        <h2 class="modal__recipe-title">Instructions:</h2>
-        <p class="modal__recipe-instructions"></p>
-        <h2 class="modal__recipe-title"> Tips:</h2>
-        <p class="modal__recipe-tips"></p>
-      </div>
-    </div>
-
-    <!-- Guestlist Card Template-->
-    <template id="guestlist__card-template">
-      <li class="guestlist__card">
-        <h2 class="guestlist__card-name"></h2>
-        <h3 class="guestlist__card-recipe"></h3>
-        <p class="guestlist__card-guests"></p>
-      </li>
-    </template>
-    <!-- Recipe Card Template-->
-    <template id="recipe__card-template">
-      <li class="recipe__card">
-        <img
-          src="./images/card-images/lake-louise.jpg"
-          alt=""
-          class="recipe__card-image"
-        />
-        <button type="button" class="recipe__card-view-button"></button>
-        <div class="recipe__card-text">
-          <h2 class="recipe__card-name"></h2>
-          <button type="button" class="recipe__card-select-button"></button>
-        </div>
-      </li>
-    </template>
-
   </body>
 </html>
