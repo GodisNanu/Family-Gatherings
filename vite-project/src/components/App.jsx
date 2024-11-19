@@ -1,10 +1,11 @@
-import 
+import React from "react";
+import "../blocks/app.css";
 
 function App() {
   return (
     <div>
-      <Header></Header>
-      <RecipeCards />
+      <Header />
+      <RecipeCardSection />
       <CarouselSection />
       <Footer />
     </div>
