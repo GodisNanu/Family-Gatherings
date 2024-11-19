@@ -1,0 +1,13 @@
+.header__image {
+  background-image: url("../assets/Untitled\design\\(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0px;
+  z-index: -1;
+}
