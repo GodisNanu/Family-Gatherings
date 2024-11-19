@@ -1,9 +1,10 @@
 import React from "react";
-import "../blocks/app.css";
-import Header from "./Header";
-import RecipeCardSection from "./RecipeCardSection";
+import Header from "../Header/Header";
+import RecipeCardSection from "../RecipeCardSection/RecipeCardSection";
 // import CarouselSection from "./CarouselSection";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
+
+import "./App.css";
 
 function App() {
   return (
