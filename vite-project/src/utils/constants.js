@@ -1,8 +1,14 @@
+import Cranberry from "../assets/cranberry.jpg";
+import PeachCobbler from "../assets/PeachCobbler.jpg";
+import MacAndCheese from "../assets/macandcheese.jpg";
+import SweetPotatoPie from "../assets/pumpkinpie.jpg";
+import SweetPotatos from "../assets/SweetPotatos.jpg";
+import Cornbread from "../assets/cornbread.jpg";
 export const recipeData = [
   {
     _id: 1,
     name: "Candied Yams",
-    link: "img",
+    link: SweetPotatos,
     ingredients: [
       "3 large sweet potatoes, peeled and cubed",
       "1/2 cup packed brown sugar",
@@ -30,7 +36,7 @@ export const recipeData = [
   {
     _id: 2,
     name: "Macaroni and Cheese",
-    link: "img",
+    link: MacAndCheese,
     ingredients: [
       "1 pound elbow macaroni",
       "1/2 cup unsalted butter",
@@ -61,7 +67,7 @@ export const recipeData = [
   {
     _id: 3,
     name: "Cornbread",
-    link: "img",
+    link: Cornbread,
     ingredients: [
       "1 cup yellow cornmeal",
       "1 cup all-purpose flour",
@@ -89,7 +95,7 @@ export const recipeData = [
   {
     _id: 4,
     name: "Cranberry Sauce",
-    link: "img",
+    link: Cranberry,
     ingredients: [
       "12 ounces fresh cranberries",
       "1 cup granulated sugar",
@@ -113,7 +119,7 @@ export const recipeData = [
   {
     _id: 5,
     name: "Peach Cobbler",
-    link: "img",
+    link: PeachCobbler,
     ingredients: [
       "6 cups fresh peaches, peeled, pitted, and sliced",
       "1/2 cup granulated sugar",
@@ -145,7 +151,7 @@ export const recipeData = [
   {
     _id: 6,
     name: "Sweet Potato Pie",
-    link: "img",
+    link: SweetPotatoPie,
     ingredients: [
       "3 large sweet potatoes, peeled and cubed",
       "1 cup granulated sugar",

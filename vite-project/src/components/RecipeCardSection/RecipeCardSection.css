@@ -1,5 +1,4 @@
 .recipe__section {
-
   background-color: blueviolet;
   width: 100%;
   max-width: 1440px;
@@ -33,4 +32,7 @@
 .slick-arrow:hover {
   background-color: black;
   opacity: 0.8;
+  background-color: rgb(250, 223, 134);
+  display: flex;
+  flex-wrap: wrap;
 }
