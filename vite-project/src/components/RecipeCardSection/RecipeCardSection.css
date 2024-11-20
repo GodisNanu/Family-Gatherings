@@ -1,12 +1,11 @@
 .recipe__section {
-  background-color: blueviolet;
+  background-color: rgb(226, 125, 43);
   width: 100%;
-  max-width: 1440px;
-  height: 944px;
-  border-radius: 0px;
+  max-width: 80%;
+  max-height: 60%;
+  border-radius: 50%;
   margin: 0 auto;
   padding-top: 96px;
-  box-sizing: border-box;
 }
 
 .recipe__carousel-header {
@@ -15,9 +14,9 @@
   line-height: 52px;
   font-weight: 400;
   color: #171a1fff;
-  background: #f3f4f6ff;
-  margin-bottom: 48px;
-  margin-left: 140px;
+  background: transparent;
+  margin: auto;
+  text-align: center;
 }
 
 .recipe__carousel-feature {
@@ -25,11 +24,26 @@
   margin-left: auto;
   margin-right: auto;
 }
-.slick-arrow {
-  background-color: black;
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: brown;
+  opacity: 1;
+  font-size: 40px;
+}
+/* .slick-arrow {
+  background-color: brown;
+  width: 40px;
+  height: 40px;
 }
 
 .slick-arrow:hover {
-  background-color: black;
+  background-color: brown;
   opacity: 0.8;
-}
+} */

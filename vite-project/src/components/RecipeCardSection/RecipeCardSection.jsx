@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import RecipeCard from "../RecipeCard/RecipeCard";
-import "../RecipeCard/RecipeCard.css";
+import "./RecipeCardSection.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { recipeData } from "../../utils/constants";
@@ -58,7 +58,7 @@ const RecipeCardSection = () => {
     infinite: true,
     centerMode: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
   };
   return (

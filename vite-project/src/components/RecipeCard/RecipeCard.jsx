@@ -6,7 +6,7 @@ export const RecipeCard = ({ openRecipe, name, link }) => {
   return (
     <>
       <div className="recipe__card_container">
-        <li className="recipe__card">
+        <div className="recipe__card">
           <img src={link} alt="" className="recipe__card-image" />
           <button
             onClick={() => {
@@ -22,7 +22,7 @@ export const RecipeCard = ({ openRecipe, name, link }) => {
               className="recipe__card-select-button"
             ></button>
           </div>
-        </li>
+        </div>
       </div>
     </>
   );
