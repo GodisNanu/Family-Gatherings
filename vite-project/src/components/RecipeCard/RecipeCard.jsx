@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import { recipeData } from "../../utils/constants";
 import "./RecipeCard.css";
 
-export const RecipeCard = ({ handleModalForm, openRecipe, name, link }) => {
+export const RecipeCard = ({ handleModalForm, openRecipe, item }) => {
   return (
     <>
       <div className="recipe__card_container">
         <div className="recipe__card">
-          <img src={link} alt="" className="recipe__card-image" />
+          <img src={item.link} alt="" className="recipe__card-image" />
 
           <div className="recipe__card-text">
-            <h2 className="recipe__card-name">{name}</h2>
+            <h2 className="recipe__card-name">{item.name}</h2>
           </div>
           <button
             onClick={() => {

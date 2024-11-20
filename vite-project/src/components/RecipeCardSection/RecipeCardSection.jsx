@@ -74,8 +74,7 @@ const RecipeCardSection = ({ handleModalForm }) => {
                 handleModalForm={handleModalForm}
                 openRecipe={openRecipe}
                 key={item._id}
-                name={item.name}
-                link={item.link}
+                item={item}
               />
             ))}
           </Slider>
