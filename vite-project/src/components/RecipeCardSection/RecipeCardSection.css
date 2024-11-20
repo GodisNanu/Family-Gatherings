@@ -1,3 +1,5 @@
 .recipe__section {
-  background-color: blueviolet;
+  background-color: rgb(250, 223, 134);
+  display: flex;
+  flex-wrap: wrap;
 }
