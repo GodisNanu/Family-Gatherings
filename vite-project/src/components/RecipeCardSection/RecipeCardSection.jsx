@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { recipeData } from "../../utils/constants";
 import RecipeModal from "../RecipeModal/RecipeModal";
 
-const RecipeCardSection = () => {
+const RecipeCardSection = ({ handleModalForm }) => {
   const [activeModal, setActiveModal] = useState("");
   const [selectedCard, setSelectedCard] = useState({});
   const onClose = () => {
@@ -71,6 +71,7 @@ const RecipeCardSection = () => {
           <Slider {...settings}>
             {data.map((item) => (
               <RecipeCard
+                handleModalForm={handleModalForm}
                 openRecipe={openRecipe}
                 key={item._id}
                 name={item.name}

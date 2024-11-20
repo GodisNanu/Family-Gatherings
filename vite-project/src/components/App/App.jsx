@@ -45,8 +45,8 @@ function App() {
     <div className="page">
       <div className="page__content">
         <Header />
-        <Main handleModalForm={handleModalForm} records={records} />
-        <RecipeCardSection />
+        <Main records={records} />
+        <RecipeCardSection handleModalForm={handleModalForm} />
         <Footer />
       </div>
       <ModalWithForm
@@ -54,9 +54,6 @@ function App() {
         isOpen={activeModal === "modal-form"}
         handleCreate={handleCreate}
       />
-
-      {/* <RecipeCardSection /> */}
-
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { recipeData } from "../../utils/constants";
 import "./RecipeCard.css";
 
-export const RecipeCard = ({ openRecipe, name, link }) => {
+export const RecipeCard = ({ handleModalForm, openRecipe, name, link }) => {
   return (
     <>
       <div className="recipe__card_container">
@@ -22,7 +22,13 @@ export const RecipeCard = ({ openRecipe, name, link }) => {
             {" "}
             See Recipe{" "}
           </button>
-          <button type="button" className="recipe__card-select-button">
+          <button
+            onClick={() => {
+              handleModalForm();
+            }}
+            type="button"
+            className="recipe__card-select-button"
+          >
             {" "}
             BRING THIS ONE!{" "}
           </button>
