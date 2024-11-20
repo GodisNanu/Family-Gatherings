@@ -23,6 +23,7 @@ const RecipeCardSection = ({ handleModalForm }) => {
     setSelectedCard(item);
   };
 
+  console.log(selectedCard);
   const [data, setData] = useState([]);
 
   useEffect(() => {

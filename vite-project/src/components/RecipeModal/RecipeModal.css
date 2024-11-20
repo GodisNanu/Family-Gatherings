@@ -38,12 +38,13 @@
 }
 
 .modal__image {
-  max-width: 100%;
-  max-height: 800px;
+  max-width: 80%;
+  max-height: 60%;
   min-height: min-content;
   border-radius: 20px;
   align-self: center;
   justify-self: center;
+  object-fit: cover;
 }
 
 .modal__close {
