@@ -5,6 +5,7 @@ import "../RecipeCard/RecipeCard.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { recipeData } from "../../utils/constants";
+import RecipeModal from "../RecipeModal/RecipeModal";
 
 const RecipeCardSection = () => {
   const [activeModal, setActiveModal] = useState("");
@@ -25,7 +26,7 @@ const RecipeCardSection = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    const processedData = cardData.map((card) => ({
+    const processedData = recipeData.map((card) => ({
       id: card._id,
       name: card.name,
       link: card.link,
