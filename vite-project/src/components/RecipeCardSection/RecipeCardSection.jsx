@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
+import RecipeCard from "../RecipeCard/RecipeCard";
+import "../RecipeCard/RecipeCard.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./RecipeCardSection.css";
-import RecipeCard from "../RecipeCard/RecipeCard";
-/*RecipeModal */
-import "./RecipeCardSection.css";
+import { recipeData } from "../../utils/constants";
 
 const RecipeCardSection = () => {
   const [activeModal, setActiveModal] = useState("");
@@ -75,6 +74,20 @@ const RecipeCardSection = () => {
           </Slider>
         </div>
       </div>
+
+      {recipeData.map((card) => {
+        return (
+          <RecipeCard
+            key={card.id}
+            name={card.name}
+            link={card.link}
+            ingredients={card.ingredients}
+            instructions={card.instructions}
+            tips={card.tips}
+          />
+        );
+      })}
+
       <RecipeModal
         handleOutsideClick={handleOutsideClick}
         isOpen={activeModal === "view-recipe"}

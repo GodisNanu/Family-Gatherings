@@ -1,8 +1,9 @@
 .recipe__section {
+
+  background-color: blueviolet;
   width: 100%;
   max-width: 1440px;
   height: 944px;
-  background: rgb(155, 133, 72);
   border-radius: 0px;
   margin: 0 auto;
   padding-top: 96px;
