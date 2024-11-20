@@ -6,12 +6,15 @@
   width: 400px;
   height: 300px;
   margin: 30px;
-  background-color: #f75403;
+  /* background-color: #f75403;*/
   border-radius: 50%;
 }
 .recipe__card-image {
-  width: 100px;
-  /*border-radius: 50%;*/
+  max-width: 80%;
+  max-height: 80%;
+  max-height: max-content;
+  background-size: cover;
+  border-radius: 50%;
   object-fit: contain;
 }
 .recipe__card-text {

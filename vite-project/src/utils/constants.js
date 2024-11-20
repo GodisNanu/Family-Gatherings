@@ -1,14 +1,19 @@
-import Cranberry from "../assets/cranberry.jpg";
-import PeachCobbler from "../assets/PeachCobbler.jpg";
-import MacAndCheese from "../assets/macandcheese.jpg";
-import SweetPotatoPie from "../assets/pumpkinpie.jpg";
-import SweetPotatos from "../assets/SweetPotatos.jpg";
-import Cornbread from "../assets/cornbread.jpg";
+import Cranberry from "../assets/images/CSauce.jpeg";
+import PeachCobbler from "../assets/images/Cobbler.jpeg";
+import MacAndCheese from "../assets/images/MacNCheese.jpeg";
+import SweetPotatoPie from "../assets/images/SweetPPie.jpeg";
+import Yams from "../assets/images/CandiedYams.jpeg";
+import Cornbread from "../assets/images/Cornbread.jpeg";
+import Collards from "../assets/images/Collards.jpeg";
+import Potatoes from "../assets/images/MashPandGravy.jpeg";
+import PotatoSalad from "../assets/images/PotatoSalad.webp";
+import Stuffing from "../assets/images/Stuffing.jpeg";
+
 export const recipeData = [
   {
     _id: 1,
     name: "Candied Yams",
-    link: SweetPotatos,
+    link: Yams,
     ingredients: [
       "3 large sweet potatoes, peeled and cubed",
       "1/2 cup packed brown sugar",
@@ -195,7 +200,7 @@ export const recipeData = [
   {
     _id: 7,
     name: "Collard Greens",
-    link: "img",
+    link: Collards,
     ingredients: [
       "1 bunch collard greens, trimmed and chopped",
       "1 smoked turkey neck",
@@ -224,7 +229,7 @@ export const recipeData = [
   {
     _id: 8,
     name: "Stuffing/Dressing",
-    link: "img",
+    link: Stuffing,
     ingredients: [
       "1 loaf stale white bread, cubed",
       "1/2 cup butter, melted",
@@ -255,7 +260,7 @@ export const recipeData = [
   {
     _id: 9,
     name: "Mashed Potatoes and Gravy",
-    link: "img",
+    link: Potatoes,
     ingredients: [
       "3 pounds russet potatoes, peeled and cubed",
       "1/2 cup unsalted butter",
@@ -290,7 +295,7 @@ export const recipeData = [
   {
     _id: 10,
     name: "Potato Salad",
-    link: "img",
+    link: PotatoSalad,
     ingredients: [
       "5 pounds red potatoes, scrubbed and quartered",
       "1/2 cup mayonnaise",
