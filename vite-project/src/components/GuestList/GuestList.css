@@ -1,0 +1,33 @@
+.guestlist {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.guestlist__header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.guestlist__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.guestlist__table-head {
+  background-color: #f2f2f2;
+}
+
+.guestlist__table-header-cell,
+.guestlist__table-cell {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.guestlist__table-header-cell {
+  font-weight: bold;
+}
+
+.guestlist__table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
