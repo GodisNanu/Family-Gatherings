@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { recipeData } from "../../utils/constants";
+import "./RecipeCard.css"
 
 export const RecipeCard = () => {
   return (
