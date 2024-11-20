@@ -1,0 +1,35 @@
+.recipe__section {
+  width: 100%;
+  max-width: 1440px;
+  height: 944px;
+  background: rgb(155, 133, 72);
+  border-radius: 0px;
+  margin: 0 auto;
+  padding-top: 96px;
+  box-sizing: border-box;
+}
+
+.recipe__carousel-header {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 400;
+  color: #171a1fff;
+  background: #f3f4f6ff;
+  margin-bottom: 48px;
+  margin-left: 140px;
+}
+
+.recipe__carousel-feature {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-arrow {
+  background-color: black;
+}
+
+.slick-arrow:hover {
+  background-color: black;
+  opacity: 0.8;
+}

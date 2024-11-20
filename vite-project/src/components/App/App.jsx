@@ -46,6 +46,7 @@ function App() {
       <div className="page__content">
         <Header />
         <Main handleModalForm={handleModalForm} records={records} />
+        <RecipeCardSection />
         <Footer />
       </div>
       <ModalWithForm
