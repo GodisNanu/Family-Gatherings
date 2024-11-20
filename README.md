@@ -5,10 +5,10 @@ Family Gathering Landing Page where guests can RSVP and choose a Recipe to Bring
 Collaboration Instructions
 
 1. Clone Repo
-git clone git@github.com:SamuelRun/DevCore-Recipe-List.git
+git clone git@github.com:GodisNanu/Family-Gatherings.git
 
 2. Create Branch
-cd DevCore-Recipe-List
+cd Family-Gatherings
 git branch branch-name
 
 3. Add Changes
