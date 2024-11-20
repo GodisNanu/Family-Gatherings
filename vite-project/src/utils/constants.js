@@ -259,7 +259,7 @@ export const recipeData = [
   },
   {
     _id: 9,
-    name: "Mashed Potatoes and Gravy",
+    name: "Mashed Potatoes & Gravy",
     link: Potatoes,
     ingredients: [
       "3 pounds russet potatoes, peeled and cubed",
