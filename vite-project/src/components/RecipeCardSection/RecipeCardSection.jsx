@@ -58,7 +58,7 @@ const RecipeCardSection = () => {
     infinite: true,
     centerMode: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
   return (
