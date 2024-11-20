@@ -32,7 +32,4 @@
 .slick-arrow:hover {
   background-color: black;
   opacity: 0.8;
-  background-color: rgb(250, 223, 134);
-  display: flex;
-  flex-wrap: wrap;
 }

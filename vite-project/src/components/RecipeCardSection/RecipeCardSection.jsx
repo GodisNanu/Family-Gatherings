@@ -70,24 +70,16 @@ const RecipeCardSection = () => {
         <div className="recipe__carousel-feature">
           <Slider {...settings}>
             {data.map((item) => (
-              <RecipeCard openRecipe={openRecipe} key={item.id} item={item} />
+              <RecipeCard
+                openRecipe={openRecipe}
+                key={item._id}
+                name={item.name}
+                link={item.link}
+              />
             ))}
           </Slider>
         </div>
       </div>
-
-      {recipeData.map((card) => {
-        return (
-          <RecipeCard
-            key={card.id}
-            name={card.name}
-            link={card.link}
-            ingredients={card.ingredients}
-            instructions={card.instructions}
-            tips={card.tips}
-          />
-        );
-      })}
 
       <RecipeModal
         handleOutsideClick={handleOutsideClick}
