@@ -2,11 +2,16 @@
   margin: 20px;
   font-family: Arial, sans-serif;
   color: #5c2c2c;
+  background-color: #c93046;
+  border-radius: 10px;
 }
 
 .guestlist__header {
   font-size: 24px;
   margin-bottom: 20px;
+  text-align: center;
+  color: #ffff;
+  padding-top: 10px;
 }
 
 .guestlist__table {
@@ -23,6 +28,7 @@
   border: 1px solid #ddd;
   padding: 12px;
   text-align: left;
+  background-color: #ffe9b0;
 }
 
 .guestlist__table-header-cell {
