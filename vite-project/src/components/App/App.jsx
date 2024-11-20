@@ -54,7 +54,6 @@ function App() {
         isOpen={activeModal === "modal-form"}
         handleCreate={handleCreate}
       />
-      <RecipeCardSection />
     </div>
   );
 }
