@@ -12,6 +12,7 @@
   text-align: center;
   color: #ffff;
   padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
 
 .guestlist__table {
@@ -21,6 +22,7 @@
 
 .guestlist__table-head {
   background-color: #f2f2f2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
 
 .guestlist__table-header-cell,
@@ -29,7 +31,11 @@
   padding: 12px;
   text-align: left;
   background-color: #ffe9b0;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+
   font-size: 18px;
+
 }
 
 .guestlist__table-header-cell {
