@@ -2,7 +2,7 @@
   margin: 20px;
   font-family: Arial, sans-serif;
   color: #5c2c2c;
-  background-color: #c93046;
+  background-color: brown;
   border-radius: 10px;
 }
 
@@ -35,7 +35,6 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 
   font-size: 18px;
-
 }
 
 .guestlist__table-header-cell {
