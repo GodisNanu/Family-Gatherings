@@ -7,7 +7,7 @@
 }
 
 .guestlist__header {
-  font-size: 24px;
+  font-size: 48px;
   margin-bottom: 20px;
   text-align: center;
   color: #ffff;
@@ -29,10 +29,12 @@
   padding: 12px;
   text-align: left;
   background-color: #ffe9b0;
+  font-size: 18px;
 }
 
 .guestlist__table-header-cell {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .guestlist__table-row:nth-child(even) {
