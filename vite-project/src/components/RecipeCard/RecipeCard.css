@@ -39,6 +39,7 @@
   height: 25px;
   border-radius: 40px;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .recipe__card-select-button {
@@ -50,8 +51,9 @@
   background-color: brown;
   border: none;
   width: 150px;
-  height: 25px;
+  height: 36px;
   border-radius: 40px;
   color: #fff;
   cursor: pointer;
+  font-size: 14px;
 }

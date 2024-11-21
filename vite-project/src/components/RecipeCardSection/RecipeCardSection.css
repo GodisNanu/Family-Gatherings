@@ -5,17 +5,20 @@
   max-height: 60%;
   border-radius: 40%;
   margin: 0 auto;
-  padding-top: 96px;
+  padding-top: 20px;
 }
 
 .recipe__carousel-header {
+
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
-  font-size: 48px;
+
+  font-size: 52px;
+
   line-height: 52px;
   font-weight: 400;
   color: #171a1fff;
   background: transparent;
-  margin: auto;
+  margin: 5px, auto, auto, auto;
   text-align: center;
 }
 
