@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Header from "../Header/Header";
 import RecipeCardSection from "../RecipeCardSection/RecipeCardSection";
 import GuestList from "../GuestList/GuestList";
-// import CarouselSection from "./CarouselSection";
 import Footer from "../Footer/Footer";
 import { fetchRecords, createRecord } from "../../utils/api";
 
@@ -35,7 +34,6 @@ function App() {
     createRecord("tblSSnbbr1wuSH3DW", newRecord)
       .then((data) => {
         console.log("Record created:", data);
-        // Update the records state with the new record
         setRecords((prevRecords) => [...prevRecords, data]);
       })
       .catch((error) => console.error("Error creating record:", error));

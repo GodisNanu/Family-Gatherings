@@ -1,6 +1,8 @@
 Project Description:
 
-Family Gathering Landing Page where guests can RSVP and choose a Recipe to Bring to the Gathering
+Family Gathering Landing Page where guests can RSVP and choose a Recipe to Bring to the Gathering.
+
+This project was started as a group project for a Code Jam Contest.
 
 Collaboration Instructions
 
