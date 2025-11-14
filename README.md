@@ -4,6 +4,12 @@ Family Gathering Landing Page where guests can RSVP and choose a Recipe to Bring
 
 This project was started as a group project for a Code Jam Contest.
 
+Demo:
+https://www.youtube.com/live/illc9Z9K8Pk?si=92SbNT0Q3r3qB63E&t=620
+
+Project Deployed at: 
+[godisnanu.github.io/Family-Gatherings/](https://godisnanu.github.io/Family-Gatherings/)
+
 Collaboration Instructions
 
 1. Clone Repo
